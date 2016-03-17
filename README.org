@@ -1,0 +1,39 @@
+#+TITLE: Shopping cart in scala
+#+AUTHOR: José Miguel
+#+EMAIL: jm@0pt1mates.com
+#+SETUPFILE: /home/jm/ws-github/org-html-themes/setup/theme-bigblow.setup
+
+* Overview
+
+You are building a checkout system for a shop which only sells apples and oranges.
+
+** Step 1
+
+Apples cost 60p and oranges cost 25p.
+
+Build a checkout system which takes a list of items scanned at the till and outputs the total cost
+
+For example: [ Apple, Apple, Orange, Apple ] => £2.05
+
+Make reasonable assumptions about the inputs to your solution; for example, many candidates take a list of strings as input.
+
+** Step 2
+
+The shop decides to introduce two new offers
+
+- buy one, get one free on Apples
+- 3 for the price of 2 on Oranges
+
+Update your checkout functions accordingly
+
+* Requirements
+
+- java 8 sdk
+- sbt
+
+* Agenda
+
+** DONE Setup
+   CLOSED: [2016-03-17 Thu 16:51]
+** TODO Step 1: shopping cart
+** TODO Step 2: offers
