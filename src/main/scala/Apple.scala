@@ -1,5 +1,7 @@
 package com.jm2dev.hmrc
 
-class Apple {
+case class Apple(quantity: Int) {
+  private val price = 0.6
 
+  def cost() = "£%.2f" format (quantity * price)
 }
