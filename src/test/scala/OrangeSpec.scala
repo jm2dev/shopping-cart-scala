@@ -1,0 +1,15 @@
+package com.jm2dev.hmrc
+
+import org.specs2.Specification
+
+class OrangeSpec extends Specification {
+  def is =
+    s2"""
+      Cost
+        an orange costs '£0.25'  $e1
+        two oranges cost '£0.50' $e2
+  """
+
+  def e1 = Orange(1).cost() should be equalTo("£0.25")
+  def e2 = Orange(2).cost() should be equalTo("£0.50")
+}
