@@ -10,6 +10,6 @@ class AppleSpec extends Specification {
         two apples cost '£1.20' $e2
   """
 
-  def e1 = new Apple(1).cost() should be equalTo("£0.60")
-  def e2 = new Apple(2).cost() should be equalTo("£1.20")
+  def e1 = new Apple(1).total() should be equalTo("£0.60")
+  def e2 = new Apple(2).total() should be equalTo("£1.20")
 }
