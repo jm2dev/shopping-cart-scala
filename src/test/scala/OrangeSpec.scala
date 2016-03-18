@@ -10,6 +10,6 @@ class OrangeSpec extends Specification {
         two oranges cost '£0.50' $e2
   """
 
-  def e1 = Orange(1).cost() should be equalTo("£0.25")
-  def e2 = Orange(2).cost() should be equalTo("£0.50")
+  def e1 = new Orange(1).cost() should be equalTo("£0.25")
+  def e2 = new Orange(2).cost() should be equalTo("£0.50")
 }
